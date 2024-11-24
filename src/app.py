@@ -1,5 +1,5 @@
 import streamlit as st
-from video_processing import process_video
+from src.video_processing import process_video
 import tempfile
 
 def main():

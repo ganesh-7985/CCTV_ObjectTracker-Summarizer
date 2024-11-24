@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import logging
 from ultralytics import YOLO
-from models import Box, MovingObject
-from utils import (get_centres, distance, get_nearest, frame2HMS,
+from src.models import Box, MovingObject
+from src.utils import (get_centres, distance, get_nearest, frame2HMS,
                    cut, overlay, write_output_video)
 
 # Define constants
